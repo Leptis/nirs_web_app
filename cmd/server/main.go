@@ -12,7 +12,7 @@ var (
 )
 
 func init() {
-	flag.StringVar(&configPath, "congif-path", "configs/apiserver.toml", "path to server config file")
+	flag.StringVar(&configPath, "congif-path", "configs/server.toml", "path to server config file")
 }
 
 func main(){
